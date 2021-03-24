@@ -1,7 +1,6 @@
-// ignore: import_of_legacy_library_into_null_safe
 import 'package:get/get.dart';
 import 'package:flutter/material.dart';
-import 'package:sound_in_talk/src/pages/sign_in_page.dart';
+import 'package:sound_in_talk/src/pages/sign/sign_in_page.dart';
 
 class SignUpPage extends StatefulWidget {
   @override

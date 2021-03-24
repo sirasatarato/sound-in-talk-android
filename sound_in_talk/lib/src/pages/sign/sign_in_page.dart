@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:sound_in_talk/src/pages/home_page.dart';
 
 class SignInPage extends StatefulWidget {
   @override
@@ -48,7 +49,7 @@ class _SignInPageState extends State<SignInPage> {
                   child: ElevatedButton(
                     onPressed: () {
                       if (_formKey.currentState?.validate() ?? false) {
-                        // TODO: 홈페이지로 이동
+                        Get.to(HomePage());
                       }
                     },
                     child: Text('Login'),
