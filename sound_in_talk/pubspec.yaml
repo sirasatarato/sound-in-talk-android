@@ -15,7 +15,7 @@ dependencies:
   logging: ^1.0.0
   flutter_sound: ^7.7.0+1
   permission_handler: ^5.1.0+2
-  get: ^3.26.0
+  get: ^4.0.0-nullsafety.2
 
   sip_ua: ^0.3.5
   flutter_webrtc: ^0.5.8

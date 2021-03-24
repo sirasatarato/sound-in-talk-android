@@ -1,7 +1,6 @@
-import 'package:flutter/gestures.dart';
-import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:sound_in_talk/src/pages/sign_page.dart';
+import 'package:flutter/material.dart';
+import 'package:sound_in_talk/src/pages/sign/sign_page.dart';
 
 void main() => runApp(MyApp());
 
